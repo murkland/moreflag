@@ -25,6 +25,9 @@ func ParseFlagSet(fs *flag.FlagSet) {
 	}
 
 	fs.VisitAll(func(f *flag.Flag) {
+		if !query.Has(f.Name) {
+			return
+		}
 		f.Value.Set(query.Get(f.Name))
 	})
 }
