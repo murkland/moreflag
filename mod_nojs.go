@@ -8,5 +8,5 @@ import (
 )
 
 func ParseFlagSet(fs *flag.FlagSet) {
-	fs.Parse(os.Args[:1])
+	fs.Parse(os.Args[1:])
 }
