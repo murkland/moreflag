@@ -1,3 +1,3 @@
-module github.com/yumland/moreflag
+module github.com/murkland/moreflag
 
 go 1.18

@@ -7,7 +7,7 @@ import (
 	"syscall/js"
 	"testing"
 
-	"github.com/yumland/moreflag"
+	"github.com/murkland/moreflag"
 )
 
 func TestParseFlags(t *testing.T) {
